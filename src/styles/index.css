@@ -1,6 +1,6 @@
 body {
     font-family: 'Work Sans', sans-serif;
-    font-size: 35px;
+    font-size: 25px;
     margin: 0;
     width: 100%;
 }
@@ -33,12 +33,13 @@ header {
     font-size: 75px;
     text-align: center;
     color: #fff;
+    
 }
 #welcome {
-    width: 100%;
-    background-image: url("/src/images/banner.jpeg");
-    height: 380px;
-    padding: 0;
+    width: 100% - 100px;
+    background-color: #212121;
+    height: 220px;
+    padding: 50px;
     margin: 0;
     
 }
@@ -54,17 +55,52 @@ header {
 
 #footer-socials {
     text-align: center;
-    color: #3d3d3d;
+    color: #c9c9c9;
 }
 
 #footer-socials > a {
-    color: #3d3d3d;
+    color: #c9c9c9;
 }
 
 #footer-socials > a:visited {
-    color: #3d3d3d;
+    color: #c9c9c9;
 }
 
 #footer-socials > a:hover {
-    color: #3d3d3d;
+    color: #c9c9c9;
+}
+
+footer {
+    background-color: #3d3d3d;
+    color: #c9c9c9;
+}
+
+.video {
+    padding: 10px;
+    margin: 0;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+    flex-grow: 1;
+}
+#video-carousel {
+   display: flex;
+}
+#footer-navigation {
+    align-items: center;
+    display: flex;
+}
+.tiny {
+    font-size: 15px;
+}
+#footer-copyright {
+    text-align: center;
+}
+.title-description {
+    color: #fff;
+    text-align: center;
+}
+.section-description {
+    text-align: center;
+    font-size: 35px;
 }
