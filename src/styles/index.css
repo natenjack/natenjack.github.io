@@ -3,6 +3,7 @@ body {
     font-size: 25px;
     margin: 0;
     width: 100%;
+    padding-bottom: 0;
 }
 header {
     width: 100% - 5px;
@@ -41,6 +42,7 @@ header {
     height: 220px;
     padding: 50px;
     margin: 0;
+    border-bottom: 5px solid #3d3d3d;
     
 }
 
@@ -95,6 +97,8 @@ footer {
 }
 #footer-copyright {
     text-align: center;
+    padding-bottom: 0;
+    height: 20px;
 }
 .title-description {
     color: #fff;
@@ -103,4 +107,30 @@ footer {
 .section-description {
     text-align: center;
     font-size: 35px;
+}
+footer {
+
+    padding-bottom: 0;
+}
+
+.stats {
+    font-size: 50px;
+    font-weight: 600;
+}
+
+#stats {
+    display: flex;
+}
+
+#subs, #views, #videos-count {
+    flex-grow: 1;
+    text-align: center;
+    height: 250px;
+    background-color: #212121;
+    color: #fff;
+    border-top: 5px solid #3d3d3d;
+    border-bottom: 5px solid #3d3d3d;
+}
+#subs, #views {
+    border-right: 5px solid #3d3d3d;
 }

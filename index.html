@@ -6,6 +6,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script> 
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -18,9 +19,11 @@
       </div>
       <div id="header-links">
         <a href="about">About</a>
+        <a href="youtube-library" onclick="if( $.browser.mozilla ){ alert('This page does not work on browsers made by Mozilla (Firefox). Please use another browser e.g. Edge or Safari') }">Youtube Library</a>
       </div>
       <div id="header-hamburger-menu">
         <i class="fa-solid fa-bars"></i>
+        
       </div>
     </header>
     <main>
@@ -51,12 +54,35 @@
       </section>
       <section id="stats">
         <div id="subs">
-
-        </div>
-        <div id="likes">
-
+          <h3 class="stats-title">
+            Subscribers
+          </h3>
+          <h3 class="stats">
+            10k+
+          </h3>
         </div>
         <div id="views">
+          <h3 class="stats-title">
+            Views
+          </h3>
+          <h3 class="stats">
+            3M+
+          </h3>
+        </div>
+        <div id="videos-count">
+          <h3 class="stats-title">
+            Videos
+          </h3>
+          <h3 class="stats">
+            100+
+          </h3>
+        </div>
+      </section>
+      <section id="people">
+        <div id="person-1" class="people">
+          
+        </div>
+        <div id="person-2" class="people">
           
         </div>
       </section>
